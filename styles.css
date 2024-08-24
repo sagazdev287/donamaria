@@ -1,0 +1,219 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  color: #333;
+  line-height: 1.6;
+}
+
+header {
+  background-image: url("https://images.pexels.com/photos/327158/pexels-photo-327158.jpeg");
+  background: #ff5521;
+  color: #fff;
+  padding: 1rem 0;
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 12000px;
+  margin: 0 auto;
+  padding: 0 1rem;
+  text-align: center;
+}
+
+header .container1 {
+  display: flex;
+  background-color: black;
+}
+
+header h1 {
+  font-size: 2rem;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav ul li {
+  margin-left: 1rem;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+section {
+  padding: 2rem 0;
+}
+
+section#home {
+  background: #ffe8d6;
+  text-align: center;
+}
+
+section#menu {
+  background: #f0f8ff;
+}
+
+.card {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin: 1rem;
+  padding: 1rem;
+  text-align: center;
+}
+
+.card img {
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+footer {
+  background: #ff6f61;
+  color: #fff;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+footer .container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+button {
+  background: #ff6f61;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #ff3b2b;
+}
+
+/* Estilo para o botão do WhatsApp */
+#whatsapp-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+}
+
+#whatsapp-button a {
+  display: block;
+  width: 60px;
+  height: 60px;
+  background-color: #25d366; /* Cor verde do WhatsApp */
+  border-radius: 50%;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  line-height: 60px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#whatsapp-button img {
+  width: 30px;
+  height: 30px;
+}
+
+#whatsapp-button a:hover {
+  transform: scale(1.1);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+}
+
+/* Estilo para a seção de horários */
+#horarios {
+  padding: 2rem 0;
+  background: #f9f9f9;
+  text-align: center;
+}
+
+#horarios h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+#status {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  color: #fff;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+#status.online {
+  background-color: #4caf50; /* Verde para online */
+}
+
+#status.offline {
+  background-color: #f44336; /* Vermelho para offline */
+}
+
+.horarios-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.horario {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin: 0.5rem;
+  padding: 1rem;
+  width: 200px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.horario h3 {
+  margin-bottom: 0.5rem;
+}
+
+.horario p {
+  font-size: 1.2rem;
+}
+
+/* Estilo para o botão do WhatsApp */
+#whatsapp-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+}
+
+#whatsapp-button a {
+  display: block;
+  width: 60px;
+  height: 60px;
+  background-color: #25d366; /* Cor verde do WhatsApp */
+  border-radius: 50%;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  line-height: 60px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#whatsapp-button img {
+  width: 30px;
+  height: 30px;
+}
+
+#whatsapp-button a:hover {
+  transform: scale(1.1);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+}
+
+
