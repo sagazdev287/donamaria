@@ -13,13 +13,13 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Horários de funcionamento
     const horarios = {
-        segunda: { abertura: 10, fechamento: 22 },
-        terca: { abertura: 10, fechamento: 22 },
-        quarta: { abertura: 10, fechamento: 22 },
-        quinta: { abertura: 10, fechamento: 22 },
-        sexta: { abertura: 10, fechamento: 22 },
-        sabado: { abertura: 11, fechamento: 23 },
-        domingo: { abertura: null, fechamento: null } // Fechado no domingo
+        segunda: { abertura: 18, fechamento: 23 },
+        terca: { abertura: 18, fechamento: 23 },
+        quarta: { abertura: 18, fechamento: 23 },
+        quinta: { abertura: 18, fechamento: 23 },
+        sexta: { abertura: 18, fechamento: 23 },
+        sabado: { abertura: 18, fechamento: 23 },
+        domingo: { abertura: 18, fechamento: 23} // Fechado no domingo
     };
 
     function verificarStatus() {
