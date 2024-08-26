@@ -58,6 +58,7 @@ section {
 section#home {
   background: #ffe8d6;
   text-align: center;
+  height: 170px;
 }
 
 section#menu {
@@ -214,6 +215,25 @@ button:hover {
 #whatsapp-button a:hover {
   transform: scale(1.1);
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+}
+
+
+
+
+.botao {
+  display: inline-block;
+  padding: 15px 30px;
+  font-size: 16px;
+  text-decoration: none;
+  color: #fff;
+  background-color: #ff7300;
+  border-radius: 5px;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.botao:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
 }
 
 
